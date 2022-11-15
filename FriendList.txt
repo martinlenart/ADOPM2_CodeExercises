@@ -9,6 +9,16 @@ Step 1 - using class, properties, constructors, class factory, ToString()
 6. Generate 10_000 friends and print out to the console the first 20 and the last 20
 
 Step 2 - List encapsulation
-6. Create a new class FriendList that encapsulated a list of friends
-7. In FriendList create a class Factory method that takes NrOfFrieds and as arguments and 
+
+1. Create a new class FriendList that encapsulated a list of friends
+2. In FriendList create a class Factory method that takes NrOfFrieds and as arguments and 
    and creates and returns a instance of FriendList initialized with a list of random friend of a NrOfFriends length.
+3. Generate an instans of FriendList that contains 10_000 friends
+4. Printout Friend with index 123, and nr 456
+
+Step 3 - Protect the FriendList from unwanted changes.
+
+1. Make the list of friends in FriendList private
+2. Implement an indexer on the class FriendList to access a specific friend by index
+3. Printout Friend with index 123, and nr 456
+
