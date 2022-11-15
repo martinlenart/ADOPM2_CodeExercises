@@ -1,10 +1,14 @@
 Step 1 - using class, properties, constructors, class factory, ToString()
 
 1. Make a new project in VS called FriendList.
-2. Model a Friend by using a class or struct. A friend as following attributes.
+2. Model a Friend by using a class or struct, called Friend. A friend as following attributes.
 	First name, Last name, Email, Address (Street name, zip code, city, country).
 3. Create and instance of a friend using object initialization.
 4. Create an instance of a friend using constructor.
 5. Create a class Factory to create a random friend.
-6. Create a class Factory that creates and returns a list of random friend of a specific length.
-7. Generate 10_000 friends and print out to the console the first 20 and the last 20
+6. Generate 10_000 friends and print out to the console the first 20 and the last 20
+
+Step 2 - List encapsulation
+6. Create a new class FriendList that encapsulated a list of friends
+7. In FriendList create a class Factory method that takes NrOfFrieds and as arguments and 
+   and creates and returns a instance of FriendList initialized with a list of random friend of a NrOfFriends length.
