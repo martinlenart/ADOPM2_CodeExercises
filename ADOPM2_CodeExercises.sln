@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendList", "FriendList\FriendList.csproj", "{FA42E5FF-ACB8-4B03-813D-3C9E127BEC96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{049CBC70-0F48-4083-BE04-C5E690F3AD9F}"
+	ProjectSection(SolutionItems) = preProject
+		FriendList.txt = FriendList.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA42E5FF-ACB8-4B03-813D-3C9E127BEC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA42E5FF-ACB8-4B03-813D-3C9E127BEC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA42E5FF-ACB8-4B03-813D-3C9E127BEC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA42E5FF-ACB8-4B03-813D-3C9E127BEC96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {674E634B-E57E-4E37-8F4A-B758814F4111}
+	EndGlobalSection
+EndGlobal
