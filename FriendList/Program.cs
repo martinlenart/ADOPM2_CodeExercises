@@ -17,7 +17,7 @@ namespace FriendList // Note: actual namespace depends on the project name.
                     Street = "Mainstreet 1", Zip=12345, City="Gavle", Country="Sweden"}
             };
 
-            Console.WriteLine(f1);
+            Console.WriteLine(f1.ToString());
 
             Friend f2 = new Friend("Anne", "Sterling", "a.sterling@icloud.com",
                 new AddressType { Street = "Backstreet 3", Zip = 98765, City = "Sigtuna", Country = "Sweden" });

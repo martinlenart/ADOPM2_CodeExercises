@@ -15,9 +15,10 @@ namespace FriendList
      
         public override string ToString()
         {
-            string sRet = $"{FirstName} {LastName}, {Email}, from {Address}";
+            string sRet = $"{FirstName} {LastName}, {Email}, from {Address.ToString()}";
             return sRet;
         }
+        
 
         public Friend(string firstname, string lastname, string email, AddressType address)
         {
