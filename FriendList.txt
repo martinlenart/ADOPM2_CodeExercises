@@ -22,3 +22,14 @@ Step 3 - Protect the FriendList from unwanted changes.
 2. Implement an indexer on the class FriendList to access a specific friend by index
 3. Printout Friend with index 123, and nr 456
 
+Step 4 - Override ToString()
+1. Implement ToString() in Friend and FriendList so that making Console.WriteLine() on the instance
+   of FriendList prints out the list.
+2. Generate a FriendList with 10 friends and print out the list
+
+Step 5 - Implement Find and Sort in FriendList
+1. Implement IEquatable<Friend> and IComparable<Friend>
+2. Overload operators == and != in class Friend
+2. Implement a Method Sort() in FriendList that returns a list of friends sorted on lastnames
+3. Implement a Method Contains(Friend friend) that returns true if a friend is in the list
+

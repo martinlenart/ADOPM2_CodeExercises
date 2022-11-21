@@ -35,6 +35,7 @@ namespace FriendList // Note: actual namespace depends on the project name.
 
             Console.WriteLine(myFriends[0]);
             Console.WriteLine(myFriends[myFriends.Count-1]);
+
         }
     }
 }
