@@ -27,7 +27,7 @@ Step 4 - Override ToString()
    of FriendList prints out the list.
 2. Generate a FriendList with 10 friends and print out the list
 
-Step 5 - Implement Find and Sort in FriendList
+Step 5 - Implement Contains and Sort in FriendList
 1. Implement IEquatable<Friend> and IComparable<Friend>
 2. Overload operators == and != in class Friend
 2. Implement a Method Sort() in FriendList that returns a list of friends sorted on lastnames
