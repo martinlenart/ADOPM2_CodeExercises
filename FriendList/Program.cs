@@ -28,13 +28,29 @@ namespace FriendList // Note: actual namespace depends on the project name.
             Console.WriteLine(f3);
 
             List<Friend> myFriends = new List<Friend>();
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 10_000; i++)
             {
                 myFriends.Add(Friend.Factory.CreateRandom());
             }
 
-            Console.WriteLine(myFriends[0]);
-            Console.WriteLine(myFriends[myFriends.Count-1]);
+            Console.WriteLine("\nFirst 20");
+            for (int i = 0; i < 20; i++)
+            {
+                Console.WriteLine(myFriends[i]);
+            }
+            Console.WriteLine("\nLast 20");
+            for (int i = 0; i < 20; i++)
+            {
+                Console.WriteLine(myFriends[myFriends.Count-1-i]);
+            }
+
+            Console.WriteLine("\nFriendList - friends1");
+            var friends1 = FriendList.Factory.CreateRandom(10);
+            Console.WriteLine(friends1);
+
+            Console.WriteLine("\nFriendList - friends2");
+            var friends2 = FriendList.Factory.CreateRandom(5);
+            Console.WriteLine(friends2);
 
         }
     }
