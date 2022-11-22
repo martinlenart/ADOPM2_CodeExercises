@@ -5,12 +5,21 @@
         public class Chef
         {
             public string Name { get; set; } = "Boring";
-            public string FavoriteDish => "really nothing";
+            virtual public string FavoriteDish => "really nothing";
             public override string ToString() => $"{Name} My favorite dish is {FavoriteDish}.";
         }
 
         //Declare a French Chef, Pierre who loves Escargot
+        public class FrenchChef:Chef
+        {
+            public string Name { get; set; } = "Boring";
+            override public string FavoriteDish => "Snails";
 
+            public FrenchChef()
+            {
+                Name = "Pierre";
+            }
+        }
         //Declare a German Chef, Klaus who loves Bratwurst
 
         //Declare a SouthGerman Chef, Heinz who loves Sauerkraut
@@ -24,7 +33,11 @@
             Chef chef = new Chef();
             Console.WriteLine(chef);
 
+            Console.WriteLine("\nFrenchChef");
             //Create the French, German, Swedish Chef
+            FrenchChef fc = new FrenchChef();
+            Console.WriteLine(fc.FavoriteDish);
+            Console.WriteLine(fc);
 
 
             //Polymorfism
