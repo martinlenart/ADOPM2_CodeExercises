@@ -8,8 +8,8 @@ namespace Bank
 {
     public class csAccount : IAccount
     {
-        public string AccountNumber { get; set ; }
-        public decimal Saldo { get; set ; }
+        public string AccountNumber;
+        public decimal Saldo
         public csAccount()
         {
             this.AccountNumber = "123-456-789";

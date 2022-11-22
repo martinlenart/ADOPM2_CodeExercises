@@ -52,6 +52,8 @@ namespace FriendList // Note: actual namespace depends on the project name.
             var friends2 = FriendList.Factory.CreateRandom(5);
             Console.WriteLine(friends2);
 
+            friends1.myFriends = null;
+
         }
     }
 }
