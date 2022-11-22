@@ -5,9 +5,8 @@
         public class Chef
         {
             public string Name { get; set; } = "Boring";
-            public string Hello => $"Hi, I'm {Name}!";
             public string FavoriteDish => "really nothing";
-            public override string ToString() => $"{Hello} My favorite dish is {FavoriteDish}.";
+            public override string ToString() => $"{Name} My favorite dish is {FavoriteDish}.";
         }
 
         //Declare a French Chef, Pierre who loves Escargot
