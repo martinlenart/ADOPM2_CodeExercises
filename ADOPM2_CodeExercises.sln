@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars", "Cars\Cars.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "getSet", "getSet\getSet.csproj", "{A857C1C4-8E58-460A-83CD-B6E7ECB5521E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{61128736-441C-4F83-B530-3F4AD4712D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{61128736-441C-4F83-B530-3F4AD4712D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInputConsole", "UserInputConsole\UserInputConsole.csproj", "{D9D7BC9B-9677-4FAF-A69C-FFCE966FA17A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInputConsole", "UserInputConsole\UserInputConsole.csproj", "{D9D7BC9B-9677-4FAF-A69C-FFCE966FA17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{4E155B41-43DF-45C7-AE4B-DF69E23D0235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D9D7BC9B-9677-4FAF-A69C-FFCE966FA17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9D7BC9B-9677-4FAF-A69C-FFCE966FA17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D7BC9B-9677-4FAF-A69C-FFCE966FA17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E155B41-43DF-45C7-AE4B-DF69E23D0235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E155B41-43DF-45C7-AE4B-DF69E23D0235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E155B41-43DF-45C7-AE4B-DF69E23D0235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E155B41-43DF-45C7-AE4B-DF69E23D0235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
