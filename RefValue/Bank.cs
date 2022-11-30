@@ -8,12 +8,17 @@ namespace RefValue
 {
     public class Bank
     {
-        public string Name { get; set; }
-        public void Initialize(csAccount acc1, strAccount acc2) {
-            this.Name = "SEB";
-            acc1.Saldo = 1000;
-            acc2.Saldo = 1000;
+        public string Name { get; set; } = "SEB";
+        public void Deposit(csAccount acc, decimal Amount) {
+            acc.Saldo = 1000;
+            acc.sLastTransaction = $"Added {1000:C2}";
+            acc.sbLastTransaction.Append($"Added {1000:C2}");
         }
-
+        public void Deposit(stAccount acc, decimal Amount)
+        {
+            acc.Saldo = 1000;
+            acc.sLastTransaction = $"Added {1000:C2}";
+            acc.sbLastTransaction.Append($"Added {1000:C2}");
+        }
     }
 }
