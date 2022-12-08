@@ -9,7 +9,7 @@ namespace Bank
     public class csAccount : IAccount
     {
         public string AccountNumber;
-        public decimal Saldo
+        public decimal Saldo { get; set; }
         public csAccount()
         {
             this.AccountNumber = "123-456-789";
