@@ -5,6 +5,8 @@
         public class Chef
         {
             public string Name { get; set; } = "Boring";
+
+            //try remove virtual
             virtual public string FavoriteDish => "really nothing";
             public override string ToString() => $"{Name} My favorite dish is {FavoriteDish}.";
         }
@@ -13,6 +15,8 @@
         public class FrenchChef:Chef
         {
             public string Name { get; set; } = "Boring";
+
+            //test remove override
             override public string FavoriteDish => "Snails";
 
             public FrenchChef()
@@ -25,7 +29,6 @@
         //Declare a SouthGerman Chef, Heinz who loves Sauerkraut
 
         //Declare a Swedish Chef, Mats who loves Meatballs
-
 
         static void Main(string[] args)
         {
