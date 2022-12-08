@@ -14,6 +14,7 @@
         //Declare a French Chef, Pierre who loves Escargot
         public class FrenchChef:Chef
         {
+            //try remove Name property entirely
             public string Name { get; set; } = "Boring";
 
             //test remove override
